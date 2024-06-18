@@ -1,0 +1,23 @@
+.rightside-container {
+    background-color: #256D85;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+
+    &.weather {
+        background-color: white;
+        border: solid 1px #256D85;
+        color: #256D85;
+
+        .rightside__content {
+            color: black;
+        }
+    }
+
+    .rightside__title {
+        font-size: 1.125rem;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+}

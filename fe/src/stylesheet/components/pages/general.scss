@@ -1,0 +1,18 @@
+.general {
+    position: relative;
+  
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: #256D85;
+        border-bottom: 1px solid #256D85;
+    }
+  
+    .warning {
+      padding-top: 10px;
+      color: red;
+    }
+  }

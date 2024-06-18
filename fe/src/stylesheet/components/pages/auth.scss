@@ -1,0 +1,136 @@
+.auth-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px; 
+
+        h4{
+            font-size: 30px;
+            color: #71C9CE;
+        }
+        .shrimp_icon {
+            font-size: 40px;
+            color: #71C9CE;
+            padding: 0 15px 0 15px;
+        }
+    }
+    .auth-wrap {
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+        -moz-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+        -o-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+        -ms-box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .1);
+
+        
+        .header_title {
+            background-color: #71C9CE;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                color: #F5F5F5;
+                font-size: 26px;
+            }
+
+            
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 100%;
+            padding: 20px 30px 30px 30px;
+        }
+
+        input {
+            margin-top: 20px;
+            font-size: 15px;
+            color: #1b3815;
+            line-height: 1.2;
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 55px;
+            background: #ebebeb;
+            border-radius: 27px;
+            padding: 0 25px;
+        }
+
+        .auth-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 55px;
+            width: 100%;
+            border-radius: 27px;
+            margin-top: 20px;
+            border: none;
+            background-color: #71C9CE;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.02);    
+            }
+        }
+            
+
+        .link-btn {
+            background-color: transparent;
+            border: none;
+            font-size: 15px;
+            color: #71C9CE;
+            margin-top: 20px;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.1);
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.logout-btn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    padding: 16px 0;
+    font-size: 1rem;
+    color: #06283D;
+    background-color: white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+    }
+}

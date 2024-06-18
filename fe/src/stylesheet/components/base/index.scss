@@ -1,0 +1,26 @@
+@import 'information-bar';
+@import 'weather';
+@import 'shrimpButton';
+@import 'pond';
+@import 'crop';
+@import 'input';
+@import 'select';
+@import 'stat';
+@import 'warning-box';
+@import 'checkbox';
+@import 'alertPopup';
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 1rem;
+}

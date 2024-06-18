@@ -1,0 +1,17 @@
+.shrimpSelect {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+    select {
+        margin-top: 6px;
+        padding: 6px;
+        width: 100%;
+        font-size: 1rem;
+        font-size-adjust: 0.3;
+        cursor: pointer;
+    }
+
+    option {
+        font-size: 1rem;
+    }
+}

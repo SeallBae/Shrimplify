@@ -1,0 +1,66 @@
+.pond-container {
+    position: relative;
+
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        color: #256D85;
+        border-bottom: 1px solid #256D85;
+    }
+
+    .pond-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% + 20px);
+        margin-left: -10px;
+    }
+
+    .pond-item {
+        width: calc(50% - 20px);
+        border-radius: 4px;
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid #256D85;
+        color: black;
+        cursor: pointer;
+
+        .name {
+            color: #256D85;
+            font-size: 1.125rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .content{
+            padding-top: 4px;
+        }
+        .content-area{
+            padding-top: 1px;
+        }
+
+        .link {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            font-weight: bolder;
+
+            svg {
+                font-size: 0.9rem;
+                margin-left: 4px;
+            }
+        }
+
+        &:hover {
+            color: #256D85;
+            font-weight: bold;
+            opacity: .7;
+            background: linear-gradient(to right, #71C9CE, #CBF1F5);
+
+            .link {
+                text-decoration: underline;
+            }
+        }
+    }
+}

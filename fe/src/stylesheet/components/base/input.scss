@@ -1,0 +1,20 @@
+.shrimpInput {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px;
+
+    .input__title {
+        width: 100px;
+        margin-bottom: 6px;
+        font-size: 1rem;
+        color: #06283D;
+    }
+
+    input {
+        border: solid 1px #06283D;
+        width: 400px;
+        font-size: 1rem;
+        padding: 6px 10px;
+        border-radius: 4px;
+    }
+}

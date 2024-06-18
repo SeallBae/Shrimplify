@@ -1,0 +1,68 @@
+.alert {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 1rem;
+  -ms-transform: translateX(-50%); 
+  transform: translateX(-50%);
+  padding: 0.75rem 1.25rem;
+  padding-right: 4rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  z-index: 999;
+
+  &.show {
+    display: block;
+  }
+
+  &.auto {
+    padding: 0.75rem 1.25rem;
+  }
+
+  &.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(212,237,218,1) 0%, rgba(226,242,230,1) 77%, rgba(237,249,240,1) 100%);
+    }
+  }
+
+  &.danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(248,215,218,1) 0%, rgba(254,235,237,1) 77%, rgba(255,245,246,1) 100%);
+    }
+  }
+
+  &.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+
+    &:hover {
+      background: linear-gradient(90deg, rgba(255,243,205,1) 0%, rgba(255,248,226,1) 77%, rgba(255,253,245,1) 100%);
+    }
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
